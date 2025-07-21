@@ -3,6 +3,8 @@
     "position": "top",
     "reload_style_on_change": true,
     "modules-left": [
+        "custom/ai",
+        "custom/endpoint",
         "hyprland/workspaces",
         "custom/endpoint",
         "hyprland/window"
@@ -19,14 +21,27 @@
         "tray",
         "custom/notification"
     ],
+    "hidden-state": {
+        "enable": true,
+        "show-after-fullscreen": true
+    },
+    "custom/ai": {
+        "format": " 󰭻 ",
+        "max-length": 35,
+        "on-click": "google-chrome-stable --new-window https://chat.deepseek.com/",
+        "tooltip-format": "Deepseek"
+    },
     "hyprland/window": {
-        "format": "{initialTitle}",
+        "format": "{initialClass}",
         "max-length": 35,
         "rewrite": {
-            "": "Hyprland",
-            "kitty": "Terminal  "
+            "": " Hyprland",
+            "kitty": " Terminal",
+            "Code": "󰨞 Code",
+            "Google-chrome": " Chrome"
         },
-        "separate-outputs": false
+        "separate-outputs": false,
+        "tooltip-format": "{title}"
     },
     "hyprland/workspaces": {
         "format": "{icon}",
