@@ -1,6 +1,6 @@
 {
     "$schema": "/etc/xdg/swaync/configSchema.json",
-    "positionX": "left",
+    "positionX": "right",
     "positionY": "bottom",
     "layer": "overlay",
     "control-center-layer": "top",
@@ -37,13 +37,13 @@
     ],
     "widget-config": {
         "title": {
-            "text": "Notification Center",
+            "text": "Центр уведомлений",
             "clear-all-button": true,
             "button-text": "󰆴"
         },
         "label": {
             "max-lines":1,
-            "text": "Notification Center!"
+            "text": "Центр уведомлений!"
         },
 
         "mpris": {
@@ -75,32 +75,16 @@
                 },
                 {
                     "label": "",
-                    "command": "blueman-manager"
+                    "command": "overskride"
                 },
                 {
                     "label":"󰤄",
                     "command": "swaync-client -d",
                     "type":"toggle"
                 },
-
                 {
                     "label": "󰀟",
                     "command": "gnome-network-displays"
-                },
-
-                {
-                    "label": "󰈙",
-                    "command": "kitty bash -i -c 'Docs'"
-                },
-                {
-                    "label": "",
-                    "command": "kitty bash -i -c 'Settings'"
-                    
-                },
-                {
-                    "label": "",
-                    "command": "kitty bash -i -c 'tasks'"
-
                 },
                 {
                     "label": "",
