@@ -19,6 +19,7 @@
         "custom/endpoint",
         "battery",
         "tray",
+        "custom/endpoint",
         "custom/notification"
     ],
     "hidden-state": {
@@ -65,8 +66,8 @@
     },
     "hyprland/language": {
         "format": "{}",
-        "format-en": "EN",
-        "format-ru": "RU"
+        "format-en": ":EN",
+        "format-ru": ":RU"
     },
     "custom/notification": {
         "tooltip": false,
@@ -118,7 +119,7 @@
         },
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% 󰂄",
-        "format-plugged": "{capacity}% 󰂄 ",
+        "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         "format-icons": [
             "󰁻",
