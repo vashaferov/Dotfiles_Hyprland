@@ -13,3 +13,5 @@ go/
 libreoffice/
 systemd/
 xfce4/
+PortProton.conf
+pavucontrol.ini
