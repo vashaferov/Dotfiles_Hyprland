@@ -29,7 +29,7 @@
         "show-after-fullscreen": true
     },
     "custom/ai": {
-        "format": " 󰭻 ",
+        "format": "<span color='#c3c7c8'> 󰭻 </span>",
         "max-length": 35,
         "on-click": "google-chrome-stable --new-window https://chat.deepseek.com/",
         "tooltip-format": "Deepseek"
@@ -98,6 +98,7 @@
 		"format-icons": {
 		"default": ["", "", ""]
 		},
+        "format-muted": "<span color='#c3c7c8'>  0% </span>",
 		"on-click": "pavucontrol",
 		"tooltip": false
 	},
@@ -140,7 +141,7 @@
             "󰂀",
             "󰂂",
             "󰁹"
-        ],
+        ]
     },
     "custom/pacman": {
         "format": "󰅢 {}",
@@ -149,7 +150,7 @@
         "exec-if": "exit 0",
         "on-click": "kitty sh -c 'yay -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
         "signal": 8,
-        "tooltip": false,
+        "tooltip": false
     },
     "custom/expand": {
         "format": " ",
@@ -190,10 +191,10 @@
     },
     "temperature": {
         "critical-threshold": 80,
-        "format": "",
+        "format": ""
     },
     "tray": {
         "icon-size": 14,
         "spacing": 10
-    },
+    }
 }

@@ -15,3 +15,13 @@ systemd/
 xfce4/
 PortProton.conf
 pavucontrol.ini
+autostart/
+evolution/
+kde.org/
+Mattermost/
+Postman/
+session/
+assets
+baloofileinformationrc
+dolphinrc
+viewnior/
